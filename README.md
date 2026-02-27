@@ -164,6 +164,9 @@ Client libraries for making x402 payments.
 **HTTP Clients**
 - [x402-got](https://www.npmjs.com/package/x402-got) - Got HTTP client integration.
 
+**AI Agent SDKs**
+- [PayBot SDK](https://github.com/RBKunnela/paybot-sdk) - TypeScript SDK for integrating x402 payments into AI agents and bots. Supports automatic 402 detection, wallet management, and USDC payments on Base. ([npm](https://www.npmjs.com/package/paybot-sdk))
+
 **Wallet Integration**
 - [viem](https://viem.sh/) - TypeScript library used for signing payments.
 - [ethers.js](https://docs.ethers.org/) - Alternative Ethereum library.
@@ -310,6 +313,7 @@ Enable AI agents to make autonomous payments.
 - [Apollo Intelligence MCP Server](https://www.npmjs.com/package/@apollo_ai/mcp-proxy) - 26-tool MCP server covering intelligence feeds, crypto, OSINT, DeFi, proxy, and search. `npx @apollo_ai/mcp-proxy`. ([GitHub](https://github.com/bnmbnmai/mcp-proxy))
 - [Pylon MCP Server](https://www.npmjs.com/package/@pylonapi/mcp) - 20-tool MCP server for utility APIs: web extraction, search, translation, code execution, image generation, email, and more. `npx @pylonapi/mcp`. ([GitHub](https://github.com/pylon-apis/pylon-mcp))
 - [Scout MCP](https://scout.hugen.tokyo) - 10-tool MCP server for multi-source intelligence: HN, GitHub, npm, PyPI, Product Hunt, X/Twitter, x402 Bazaar search, and composite reports. $0.001–$0.25 USDC on Base. ([Source](https://github.com/bartonguestier1725-collab/scout-mcp))
+- [PayBot MCP](https://github.com/RBKunnela/paybot-mcp) - MCP server enabling Claude and AI agents to make autonomous x402 payments. Supports wallet management, transaction history, and configurable spending limits. ([npm](https://www.npmjs.com/package/paybot-mcp))
 
 ### Agent Frameworks
 
