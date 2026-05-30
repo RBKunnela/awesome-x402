@@ -105,6 +105,7 @@ Official and community implementations of the x402 protocol.
 
 - [x402-express](https://github.com/coinbase/x402/tree/main/examples/typescript/servers/express) - Express.js middleware example.
 - [hive-rosetta](https://www.npmjs.com/package/hive-rosetta) ⭐ **Community** - Open EIP-3009 `transferWithAuthorization` signer. Zero ethers/web3 dependency, primitives-only EIP-712. Returns wire shape `{scheme: 'exact', network: 'eip155:8453', payload: {authorization, signature}}`. Same package name on PyPI. ([GitHub](https://github.com/srotzin/hive-rosetta))
+- [paybot-sdk](https://github.com/RBKunnela/paybot-sdk) ⭐ **Community** - Pay any x402 API in USDC on Base in two lines; auto-handles HTTP 402 and returns signed, offline-verifiable receipts. Hosted or self-hostable facilitator; Python client in the same repo. ([npm](https://www.npmjs.com/package/paybot-sdk))
 
 ### Python
 
